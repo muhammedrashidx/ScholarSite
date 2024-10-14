@@ -16,7 +16,7 @@ A fully responsive, modern website template designed for academic researchers to
 1. **Fork the Repository**
    - Click the **Fork** button in the top-right corner of this page to create your own copy of the repository.
    
-   [![Fork the Repository](https://img.shields.io/badge/Fork%20The%20Repository-blue?style=for-the-badge)](https://github.com/username/Academic-Researcher-Website-Template/fork)
+   [![Fork the Repository](https://img.shields.io/badge/Fork%20The%20Repository-blue?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/fork)
 
 2. **Clone the Repository**
    - Use Git to clone the repository to your local machine:
@@ -54,7 +54,7 @@ You can host your website for free using GitHub Pages.
    - Click on `Settings` > `Pages`.
    - Under the "Source" section, select the `main` branch and click **Save**.
    
-   [![Enable GitHub Pages](https://img.shields.io/badge/Enable%20GitHub%20Pages-blue?style=for-the-badge)](https://github.com/your-username/Academic-Researcher-Website-Template/settings/pages)
+   [![Enable GitHub Pages](https://img.shields.io/badge/Enable%20GitHub%20Pages-blue?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/settings/pages)
 
 2. **Access Your Website**
    - After a few minutes, your website will be live at `https://your-username.github.io/Academic-Researcher-Website-Template/`.
@@ -101,5 +101,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### ✨ Enjoy your new Academic Website Template and share your work with the world!
 
-[![Star the Repository](https://img.shields.io/badge/Star%20The%20Repository-yellow?style=for-the-badge)](https://github.com/username/Academic-Researcher-Website-Template/stargazers)
-[![Fork the Repository](https://img.shields.io/badge/Fork%20The%20Repository-blue?style=for-the-badge)](https://github.com/username/Academic-Researcher-Website-Template/fork)
+[![Star the Repository](https://img.shields.io/badge/Star%20The%20Repository-yellow?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/stargazers)
+[![Fork the Repository](https://img.shields.io/badge/Fork%20The%20Repository-blue?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/fork)
