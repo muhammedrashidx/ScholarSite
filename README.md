@@ -1,9 +1,9 @@
 # Academic Researcher Website Template
 
-A fully responsive, modern website template designed for academic researchers to showcase their profile, research, publications, and gallery. This template is perfect for creating a personal academic website to share your work with the world.
+A fully responsive, modern website template designed for academic researchers to showcase their research, publications, and accomplishments. This template is perfect for creating a personal academic website to share your work with the world.
 
-![GitHub Stars](https://img.shields.io/github/stars/username/Academic-Researcher-Website-Template?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/username/Academic-Researcher-Website-Template?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/muhammedrashidx/ScholarSite?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/muhammedrashidx/ScholarSite?style=social)
 
 ## 🌟 Features
 - **Responsive Design**: Adapts to different screen sizes.
