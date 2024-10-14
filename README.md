@@ -25,7 +25,7 @@ A fully responsive, modern website template designed for academic researchers to
      ```
 
 3. **Open the Project in VS Code**
-   - Open Visual Studio Code, and then open the project folder. 
+   - Open Visual Studio Code, and then open the project folder.
    - To open a terminal in VS Code, press `Ctrl + \`` (backtick).
 
 4. **Make Changes to Your Site**
@@ -33,7 +33,7 @@ A fully responsive, modern website template designed for academic researchers to
    - The CSS is already structured and commented for easy customization. You can modify the `index.html` for your profile, `research.html` for your research work, etc.
 
 5. **Test Your Site Locally**
-   - You can test the website on your local machine by opening `index.html` in your browser. 
+   - You can test the website on your local machine by opening `index.html` in your browser.
    - Alternatively, you can use a Live Server extension in VS Code to automatically refresh changes.
 
 6. **Push Changes to GitHub**
@@ -46,18 +46,26 @@ A fully responsive, modern website template designed for academic researchers to
 
 ## 🌐 Hosting on GitHub Pages
 
-You can host your website for free using GitHub Pages.
+You can host your website for free using **GitHub Pages**, and by following the steps below, your website will be accessible directly at `https://your-username.github.io`.
 
 ### Steps to Host on GitHub:
-1. **Enable GitHub Pages**
+
+1. **Rename the Repository (Optional but Recommended)**
+   - Go to your repository on GitHub.
+   - Click on `Settings`.
+   - Scroll to the **Repository name** section and rename the repository to match your GitHub username.
+   - For example, if your GitHub username is `janedoe`, rename the repository to `janedoe`.
+   - This will allow your website to be live at `https://your-username.github.io` (e.g., `https://janedoe.github.io`).
+
+2. **Enable GitHub Pages**
    - Go to your repository on GitHub.
    - Click on `Settings` > `Pages`.
    - Under the "Source" section, select the `main` branch and click **Save**.
    
-   [![Enable GitHub Pages](https://img.shields.io/badge/Enable%20GitHub%20Pages-blue?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/settings/pages)
+   [![Enable GitHub Pages](https://img.shields.io/badge/Enable%20GitHub%20Pages-blue?style=for-the-badge)](https://github.com/your-username/your-repo/settings/pages)
 
-2. **Access Your Website**
-   - After a few minutes, your website will be live at `https://your-username.github.io/ScholarSite/`.
+3. **Access Your Website**
+   - After a few minutes, your website will be live at `https://your-username.github.io`.
    - You can now share your website URL with others!
 
 ## 🛠️ Customization Guide
