@@ -99,7 +99,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### ✨ Enjoy your new Academic Website Template and share your work with the world!
+### ✨ Enjoy your new ScholarSite and share your work with the world!
 
 [![Star the Repository](https://img.shields.io/badge/Star%20The%20Repository-yellow?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/stargazers)
 [![Fork the Repository](https://img.shields.io/badge/Fork%20The%20Repository-blue?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/fork)
