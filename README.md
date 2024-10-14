@@ -57,7 +57,7 @@ You can host your website for free using GitHub Pages.
    [![Enable GitHub Pages](https://img.shields.io/badge/Enable%20GitHub%20Pages-blue?style=for-the-badge)](https://github.com/muhammedrashidx/ScholarSite/settings/pages)
 
 2. **Access Your Website**
-   - After a few minutes, your website will be live at `https://your-username.github.io/Academic-Researcher-Website-Template/`.
+   - After a few minutes, your website will be live at `https://your-username.github.io/ScholarSite/`.
    - You can now share your website URL with others!
 
 ## 🛠️ Customization Guide
