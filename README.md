@@ -21,7 +21,7 @@ A fully responsive, modern website template designed for academic researchers to
 2. **Clone the Repository**
    - Use Git to clone the repository to your local machine:
      ```bash
-     git clone https://github.com/your-username/Academic-Researcher-Website-Template.git
+     git clone https://github.com/your-username/ScholarSite.git
      ```
 
 3. **Open the Project in VS Code**
