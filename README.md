@@ -1,4 +1,4 @@
-# Academic Researcher Website Template
+# ScholarSite
 
 A fully responsive, modern website template designed for academic researchers to showcase their research, publications, and accomplishments. This template is perfect for creating a personal academic website to share your work with the world.
 
