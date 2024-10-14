@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Left Side -->
+            <div class="left-column">
+                <img src="images/image.png" alt="Your Name" class="profile-pic">
+                <h2>Your Name</h2>
+                <p>PhD Scholar @ University</p>
+                <div class="social-links">
+                    <a href="https://scholar.google.com" target="_blank">
+                        <img src="images/google-scholar.svg" alt="Google Scholar" class="social-icon">
+                    </a>                    
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="images/linkedin.svg" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://mail.google.com/mail" target="_blank">
+                        <img src="images/email.svg" alt="Email" class="social-icon">
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Right Side - Gallery -->
+            <div class="right-column gallery-content">
+                <h2>Gallery</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="images/project1.png" alt="Gallery Image 1" class="gallery-pic" onclick="openLightbox(this)">
+                        <div class="caption">Caption for Image 1</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/project1.png" alt="Gallery Image 2" class="gallery-pic" onclick="openLightbox(this)">
+                        <div class="caption">Caption for Image 2</div>
+                    </div>
+                </div>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="images/project1.png" alt="Gallery Image 3" class="gallery-pic" onclick="openLightbox(this)">
+                        <div class="caption">Caption for Image 3</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/project1.png" alt="Gallery Image 4" class="gallery-pic" onclick="openLightbox(this)">
+                        <div class="caption">Caption for Image 4</div>
+                    </div>
+                </div>
+                <!-- Add more gallery items as needed -->
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Lightbox HTML -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged Image">
+        <p id="lightbox-caption" class="caption"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+        <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.5;">
+            Designed by: 
+            <a href="https://www.muhammedrashid.in" target="_blank" style="text-decoration: none; color: #141414; text-decoration: underline;">
+                Muhammed Rashid
+            </a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

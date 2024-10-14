@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Research</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="research.html" class="active">Research</a></li>
+            <li><a href="publications.html">Publication</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Left Side -->
+            <div class="left-column">
+                <img src="images/image.png" alt="Your Name" class="profile-pic">
+                <h2>Your Name</h2>
+                <p>PhD Scholar @ University</p>
+                <div class="social-links">
+                    <a href="https://scholar.google.com" target="_blank">
+                        <img src="images/google-scholar.svg" alt="Google Scholar" class="social-icon">
+                    </a>                    
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="images/linkedin.svg" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://mail.google.com/mail" target="_blank">
+                        <img src="images/email.svg" alt="Email" class="social-icon">
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Right Side -->
+            <div class="right-column research-content">
+                <h2>Research Highlights</h2>
+                <div class="research-container alt-color-1">
+                    <img src="images/project1.png" alt="Research Image 1" class="research-pic" onclick="openLightbox(this)">
+                    <div class="research-details">
+                        <h3>Project Title 1</h3>
+                        <p class="short-description">Here you can write a brief summary or highlight of your research project. Keep it concise, providing a quick overview for the reader.</p>
+                        <p class="long-description" style="display: none;">
+                            Here you can provide more detailed information about the research project. This is where you expand on the summary, explaining the methodology, key findings, and the impact or significance of the research. You can add as much text as needed, and it will only be visible when the user clicks "Read more."
+                        </p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div>
+                </div>
+                <div class="research-container alt-color-2">
+                    <img src="images/project1.png" alt="Research Image 2" class="research-pic" onclick="openLightbox(this)">
+                    <div class="research-details">
+                        <h3>Project Title 2</h3>
+                        <p class="short-description">Here you can write a brief summary or highlight of your second research project. This should capture the main idea or goal of the project.</p>
+                        <p class="long-description" style="display: none;">
+                            In this section, you can elaborate on the specifics of the second project. Provide additional context, details, and any important information that gives the reader a deeper understanding of the research. Again, this part is hidden until the user clicks "Read more."
+                        </p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div>
+                </div>
+                <!-- Add more research containers as needed -->
+            </div>
+
+        
+        </div>
+    </main>
+
+    <!-- Lightbox HTML -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged Image">
+        <p id="lightbox-caption" class="caption"></p>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+        <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.5;">
+            Designed by: 
+            <a href="https://www.muhammedrashid.in" target="_blank" style="text-decoration: none; color: #141414; text-decoration: underline;">
+                Muhammed Rashid
+            </a>
+        </p>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
