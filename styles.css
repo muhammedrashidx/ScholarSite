@@ -2,16 +2,17 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF;
+  background-color: #1a1f36; /* Dark Navy Blue */
   line-height: 1.6;
   font-weight: 400;
+  color: #d8dee9; /* Off-White for text */
 }
 
 /* ----------------------------------------------
    Navigation Bar Styles
 ---------------------------------------------- */
 nav {
-  background-color: white;
+  background-color: #141829; /* Darker navy for nav */
   padding: 1rem 65%;
   position: fixed;
   top: 0;
@@ -40,7 +41,7 @@ nav ul li:last-child {
 }
 
 nav a {
-  color: #141414;
+  color: #d8dee9; /* Off-White for links */
   text-decoration: none;
   font-size: 1.1rem;
   transition: color 0.3s ease;
@@ -48,12 +49,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #1B7476;
+  color: #ffab91; /* Peach hover effect */
 }
 
 /* Active Menu Item Style */
 nav a.active {
-  color: #1B7476; /* Active link color */
+  color: #ffab91; /* Peach for active links */
 }
 
 /* Hamburger Menu */
@@ -64,7 +65,7 @@ nav a.active {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: #1B7476;
+  background-color: #ffab91; /* Peach */
   border-radius: 8px;
   z-index: 1001;
 }
@@ -93,7 +94,7 @@ nav a.active {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
-  border: 3px solid white;
+  border: 3px solid #1a1f36; /* Matches body background */
 }
 
 .social-links {
@@ -105,18 +106,18 @@ nav a.active {
 
 .social-links a {
   text-decoration: none;
-  display: inline-block; /* Ensure proper space for SVG icons */
-  transition: transform 0.3s ease; /* Smooth hover effect */
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .social-links img.social-icon {
-  width: 29px; /* Adjust the size of the SVG icons */
+  width: 29px;
   height: 29px;
-  transition: transform 0.3s ease; /* Smooth zoom-in effect on hover */
+  transition: transform 0.3s ease;
 }
 
 .social-links a:hover img.social-icon {
-  transform: scale(1.2); /* Slight zoom on hover */
+  transform: scale(1.2);
 }
 
 
@@ -136,12 +137,12 @@ nav a.active {
 }
 
 .right-column {
-  margin-left: 2rem; /* Space between left and right columns */
+  margin-left: 2rem;
 }
 
 .right-column p {
   font-size: 1.1rem;
-  color: #141414;
+  color: #d8dee9; /* Slightly lighter gray */
   margin-bottom: 1.5rem;
   text-align: justify;
 }
@@ -150,7 +151,7 @@ nav a.active {
    Research Page Styles
 ---------------------------------------------- */
 .right-column.research-content {
-  flex: 3; /* Wider right column for research */
+  flex: 3;
   max-width: 1200px;
 }
 
@@ -159,6 +160,7 @@ nav a.active {
   align-items: center;
   padding: 1.5rem;
   border-radius: 8px;
+  background-color: #29304e; /* Lighter blue for container */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   margin-bottom: 1.5rem;
@@ -166,7 +168,6 @@ nav a.active {
 
 .research-container img.research-pic {
   width: 300px;
-  height: auto;
   margin-right: 1.5rem;
   object-fit: cover;
   border-radius: 8px;
@@ -175,47 +176,45 @@ nav a.active {
 }
 
 .research-pic:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
+  transform: scale(1.05);
 }
 
 .research-details h3 {
   margin: 0;
   font-size: 1.3rem;
-  color: #141414;
+  color: #d8dee9;
 }
 
 .research-details p {
   margin: 0.5rem 0;
-  color: #333;
-  text-align: justify; /* Justify text */
+  color: #d8dee9;
 }
 
 .research-details a.read-more {
   text-decoration: none;
-  color: #1B7476;
+  color: #ffab91; /* Peach accent */
   font-weight: 500;
   cursor: pointer;
-  display: inline-block;
   margin-top: 0.5rem;
 }
 
 .research-details a.read-more:hover {
-  color: #df2c0d;
+  color: #f4d35e; /* Muted Yellow hover */
 }
 
 /* Optional: Style for the expanded long-description text */
 .long-description {
   margin-top: 1rem;
-  color: #333;
+  color: #d8dee9;
 }
 
 /* Alternating Background Colors for Research Containers */
 .alt-color-1 {
-  background-color: #f9f9f9;
+  background-color: #29304e;
 }
 
 .alt-color-2 {
-  background-color: #e6f7f8;
+  background-color: #3a3b44;
 }
 
 /* ----------------------------------------------
@@ -224,29 +223,26 @@ nav a.active {
 .publication-container {
   padding: 1.5rem;
   border-radius: 8px;
+  background-color: #29304e;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
   margin-bottom: 1.5rem;
 }
 
 .publication-container h3 {
   font-size: 1.3rem;
-  color: #141414;
-  margin-bottom: 0.5rem;
-  text-align: left; /* Left align text */
+  color: #d8dee9;
 }
 
 .publication-container p {
   margin: 0.25rem 0;
   font-size: 1rem;
-  color: #333;
-  text-align: left; /* Left align text */
+  color: #d8dee9;
 }
 
 .publication-button {
   text-decoration: none;
   padding: 0.4rem 0.8rem;
-  background-color: #5b7272;
+  background-color: #ffab91; /* Peach button */
   color: white;
   font-size: 0.9rem;
   font-weight: 500;
@@ -257,13 +253,7 @@ nav a.active {
 }
 
 .publication-button:hover {
-  background-color: #df2c0d;
-}
-
-/* Add padding inside publication container */
-.publication-container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  background-color: #f4d35e; /* Muted yellow hover effect */
 }
 
 /* ----------------------------------------------
@@ -276,7 +266,7 @@ nav a.active {
 }
 
 .gallery-item {
-  background-color: #fff;
+  background-color: #29304e;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -293,12 +283,7 @@ nav a.active {
   text-align: center;
   padding: 10px;
   font-size: 14px;
-  color: #333;
-}
-
-.gallery-pic {
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  color: #d8dee9;
 }
 
 .gallery-pic:hover {
@@ -309,7 +294,7 @@ nav a.active {
    Lightbox Styles (Shared Across Pages)
 ---------------------------------------------- */
 .lightbox {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
   z-index: 1000;
   left: 0;
@@ -340,7 +325,7 @@ nav a.active {
 }
 
 .lightbox .close:hover {
-  color: #ff6347;
+  color: #ffab91; /* Peach hover for close */
 }
 
 .lightbox .caption {
@@ -354,12 +339,13 @@ nav a.active {
    Footer Styles
 ---------------------------------------------- */
 footer {
-  background-color: #f1f1f1;
-  color: #141414;
+  background-color: #29304e;
+  color: #d8dee9;
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
 }
+
 
 /* ----------------------------------------------
    Responsive Styles
